@@ -160,9 +160,9 @@ single_avg_rt= sorted(single_avg_rt.items(), key=lambda d:d[1], reverse = True)
 team_avg_rt= sorted(team_avg_rt.items(), key=lambda d:d[1], reverse = True)
 print('-------------------------------最终结果-------------------------------')
 print(table)
-print('\n个人排名:')
+print('\n个人排名(id, 平均rt):')
 for i in range(len(single_avg_rt)):
     print(str(i + 1) + '. ' + str(single_avg_rt[i]))
-print('\n小组排名:')
+print('\n小组排名(小组序号, 平均rt):')
 for i in range(len(team_avg_rt)):
     print(str(i + 1) + '. ' + str(team_avg_rt[i]))
