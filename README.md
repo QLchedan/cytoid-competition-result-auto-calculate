@@ -1,0 +1,1 @@
+# cytoid-competition-result-auto-calculate
